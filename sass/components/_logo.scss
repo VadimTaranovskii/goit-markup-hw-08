@@ -1,0 +1,52 @@
+.header__logo,
+.header__logo-accent {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    width: 145px;
+    margin-right: 94px;
+    & {
+            color: var(--main-color);
+        }
+}
+
+.header__logo-accent {
+    color: var(--secondary-color);
+}
+
+.adress-logo {
+    width: 145px;
+    height: 31px;
+}
+
+.footer-logo,
+.accent-logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    width: 145px;
+    height: 31px;
+    margin-right: 0px;
+    & {
+            color: var(--main-color);
+            text-decoration: none;
+        }
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.accent-logo {
+    color: var(--light-color);
+    text-decoration: none;
+}
