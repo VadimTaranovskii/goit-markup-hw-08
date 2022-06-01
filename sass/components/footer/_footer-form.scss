@@ -50,15 +50,6 @@
         margin-left: auto;
     }
 
-    // @media screen and (min-width: 1200px) {
-    //     width: 358px;
-    //     margin-bottom: 20px;
-    //     display: block;
-    //     margin-top: 30px;
-    //     margin-right: auto;
-    //     margin-left: auto;
-    // }
-
     &::placeholder {
         font-family: 'Roboto';
         font-style: normal;
@@ -130,7 +121,7 @@
     margin-left: 10px;
 }
 
-// --------------------комп'ютерна-----------------
+// --------------------десктоп-----------------
 .footer-subscribe {
     @media screen and (max-width: 1199px) {
         position: relative;
