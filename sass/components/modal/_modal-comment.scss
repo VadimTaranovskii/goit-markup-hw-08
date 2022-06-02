@@ -13,17 +13,14 @@ textarea {
     box-sizing: border-box;
     border-radius: 4px;
     transition: border-color var(--main-transition);
-
     &:focus {
         border-color: var(--focus-color);
     }
-
     &::placeholder {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.01em;
-
         color: rgba(117, 117, 117, 0.5);
     }
 }

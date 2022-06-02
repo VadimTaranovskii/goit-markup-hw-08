@@ -1,11 +1,9 @@
 .modal-field-label {
     display: block;
-
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-
     color: var(--main-text-color);
 }
 
@@ -18,7 +16,6 @@ input {
     box-sizing: border-box;
     border-radius: 4px;
     transition: border-color var(--main-transition);
-
     &:focus {
         border-color: var(--focus-color);
     }
@@ -27,7 +24,6 @@ input {
 .icon {
     transition: fill var(--main-transition);
     pointer-events: none;
-
     input:hover+&,
     input:focus+& {
         fill: var(--focus-color);
@@ -35,19 +31,16 @@ input {
 }
 
 .modal-field {
-
     &.name {
         margin-top: 12px;
         position: relative;
         display: block;
     }
-
     &.phone {
         position: relative;
         display: block;
         margin-top: 10px;
     }
-
     &.email {
         position: relative;
         display: block;
