@@ -71,7 +71,7 @@
 
     .form-agreement-checkbox:checked+& {
         background-color: var(--focus-color);
-        background-image: url(../images/icon\ check\(1\).svg);
+        background-image: url(/images/check.svg);
         background-origin: border-box;
         border-color: var(--focus-color);
     }
