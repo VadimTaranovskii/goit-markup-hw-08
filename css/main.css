@@ -1196,7 +1196,7 @@ textarea::placeholder {
 }
 .form-agreement-checkbox:checked + .icon-disagree {
   background-color: var(--focus-color);
-  background-image: url(/img/check.svg);
+  background-image: url(../img/check.svg);
   background-origin: border-box;
   border-color: var(--focus-color);
   background-repeat: no-repeat;
