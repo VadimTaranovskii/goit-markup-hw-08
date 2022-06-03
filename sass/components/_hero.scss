@@ -14,7 +14,7 @@
     @media screen and (max-width: 767px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(/img/mh-1x.jpg);
+            url(/img/mh-1x.jpg),url(/img/mh-1x.jpg);
 
         @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
@@ -22,14 +22,14 @@
         (min-resolution: 2dppx) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url(/img/mh-2x.jpg);
+                url(/img/mh-2x.jpg),url(/img/mh-2x.jpg);
         }
     }
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(/img/th-1x.jpg);
+            url(/img/th-1x.jpg),url(/img/th-1x.jpg);
 
         @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
@@ -37,14 +37,14 @@
         (min-resolution: 2dppx) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url(/img/th-2x.jpg);
+                url(/img/th-2x.jpg),url(/img/th-2x.jpg);
         }
     }
 
     @media screen and (min-width: 1200px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(/img/dh-1x.jpg);
+            url(/img/dh-1x.jpg),url(/img/dh-1x.jpg);
         padding-top: 200px;
         height: 600px;
         max-width: 1600px;
@@ -56,7 +56,7 @@
         (min-resolution: 2dppx) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url(/img/dh-2x.jpg);
+                url(/img/dh-2x.jpg),url(/img/dh-2x.jpg);
         }
     }
 
