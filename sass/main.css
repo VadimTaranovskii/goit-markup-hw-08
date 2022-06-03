@@ -1314,6 +1314,8 @@ textarea::placeholder {
   background-image: url(../images/check.svg);
   background-origin: border-box;
   border-color: var(--focus-color);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .conditions {
