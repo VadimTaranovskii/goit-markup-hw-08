@@ -63,14 +63,15 @@
         left: 20px;
     }
 
-    .form-agreement-checkbox:checked+& {
-        background-color: var(--focus-color);
-        background-image: url(/img/check.svg);
-        background-origin: border-box;
-        border-color: var(--focus-color);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+    
+}
+.icon-disagree.form-agreement-checkbox:checked+& {
+    background-color: var(--focus-color);
+    background-image: url(/img/check.svg);
+    background-origin: border-box;
+    border-color: var(--focus-color);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .conditions {
