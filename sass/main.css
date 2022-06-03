@@ -1354,7 +1354,7 @@ textarea::placeholder {
 .modal-form-button:hover,
 .modal-form-button:focus {
   background-color: var(--hero-button-fh-color);
-  border-color: --hero-button-fh-color;
+  border-color: var(--hero-button-fh-color);
 }
 
 .button-modal {
@@ -2011,4 +2011,6 @@ textarea::placeholder {
   opacity: 1;
 }
 
+.project-cards::before
+.portfolio-progect-list::before
 /*# sourceMappingURL=main.css.map */
