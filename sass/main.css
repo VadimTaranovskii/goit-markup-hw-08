@@ -949,7 +949,7 @@ picture {
 @media screen and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)), url(../img/mh-1x.jpg);
+    rgba(47, 48, 58, 0.4)), url(/img/mh-1x.jpg);
   }
 }
 
@@ -959,14 +959,14 @@ screen and (max-width: 767px) and (min-resolution: 192dpi),
 screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)), url(../img/mh-2x.jpg);
+    rgba(47, 48, 58, 0.4)), url(/img/mh-2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)), url(../img/th-1x.jpg);
+    rgba(47, 48, 58, 0.4)), url(/img/th-1x.jpg);
   }
 }
 
@@ -976,14 +976,14 @@ screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dp
 screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)), url(../img/th-2x.jpg);
+    rgba(47, 48, 58, 0.4)), url(/img/th-2x.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)), url(../img/dh-1x.jpg);
+    rgba(47, 48, 58, 0.4)), url(/img/dh-1x.jpg);
     padding-top: 200px;
     height: 600px;
     max-width: 1600px;
@@ -997,7 +997,7 @@ screen and (min-width: 1200px) and (min-resolution: 192dpi),
 screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)), url(../img/dh-2x.jpg);
+    rgba(47, 48, 58, 0.4)), url(/img/dh-2x.jpg);
   }
 }
 
@@ -1311,7 +1311,7 @@ textarea::placeholder {
 
 .form-agreement-checkbox:checked+.icon-disagree {
   background-color: var(--focus-color);
-  background-image: url(../images/check.svg);
+  background-image: url(/img/check.svg);
   background-origin: border-box;
   border-color: var(--focus-color);
   background-repeat: no-repeat;
